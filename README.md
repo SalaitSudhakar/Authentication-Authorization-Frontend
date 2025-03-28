@@ -1,12 +1,26 @@
-# React + Vite
+# MERN Authentication & Authorization - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of the MERN (MongoDB, Express.js, React, Node.js) authentication and authorization system.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- User Registration
+- Login & Logout
+- OTP-based Account Verification
+- Password Reset via Email Link
+- Authentication with JWT stored in cookies
+- Protected Routes
+- Responsive UI with Tailwind CSS (optional)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- **React.js** - Frontend Library
+- **Axios** - API Requests
+- **React Router** - Navigation & Routing
+- **Context API** - State Management
+- **Tailwind CSS (Optional)** - Styling
+- **Toastify** - notifications
